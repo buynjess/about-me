@@ -1,0 +1,49 @@
+
+body{
+    background-color: lightblue
+}
+
+input [type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+
+}
+
+section :nth-child(odd){
+    background-color: purple;
+}
+
+header h1{
+    color: palevioletred;
+    text-align: center;
+}
+body main {
+    padding: 10px 100px 10px 100px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; 
+}
+
+main div:first-child{
+    display: flex;
+    
+}
+main div:first-child article{
+    margin-left: 20px;
+}
+form ul{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+nav ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+section pre{
+    display: flex;
+    /*justify-content: center;*/
+}
