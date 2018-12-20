@@ -7,6 +7,7 @@ export default class AboutMe extends Component {
         <div>
             <header>
                 <h1>Jessica Buynak</h1>
+                <SiteNav/>
             </header>
             <main>
                 <div> 

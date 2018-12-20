@@ -1,7 +1,5 @@
 import React, {Component} from 'react'
-import { Route, Link } from 'react-router-dom'
-import AboutMe from "./AboutMe"
-import WorkExperience from './workExperience';
+import { Link } from 'react-router-dom'
 
 
 class SiteNav extends Component{
@@ -10,13 +8,11 @@ class SiteNav extends Component{
         return (
                 <div>
                     <nav>
-                     <ul className="upper-container">
-                        <li className="upper-container>li"><Link to="/"><h1>About Me</h1></Link></li>
-                        <li className="upper-container>liS"><Link to="/PreviewPage"><h1>Work Experience</h1></Link></li>
+                     <ul>
+                        <li><Link to="/"><h1>Home</h1></Link></li>
+                        <li><Link to="/work-history"><h1>Work History</h1></Link></li>
                      </ul>
                     </nav>
-                <Route exact path="/" component={AboutMe} />
-                <Route path="/PreviewPage" component={WorkExperience} />
                 </div>
     
         )

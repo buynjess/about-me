@@ -1,12 +1,14 @@
 import React, { Component } from "react"
 import AboutMe from "./AboutMe"
+import SiteNav from "./SiteNav";
 
 export default class WorkExperience extends Component {
     render(){
         return(
             <div>
                 <header>
-                    <h1>Jessica's Work Experience </h1>
+                    <h1> Jessica's Work History</h1>
+                    <SiteNav/>
                  </header>
                 <section>
                     <pre>
