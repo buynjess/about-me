@@ -14,6 +14,7 @@ input [type=text] {
 
 section :nth-child(odd){
   background-color: purple;
+  
 }
 
 header h1{
@@ -46,8 +47,8 @@ nav ul {
   justify-content: center;
   list-style-type: none;
 }
-section pre{
+/* section pre{
   display: flex;
-  /*justify-content: center;*/
-}
+  justify-content: center;
+} */
 

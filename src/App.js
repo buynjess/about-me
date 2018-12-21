@@ -1,8 +1,10 @@
 import React, { Component } from 'react'
 import './App.css'
-import {BrowserRouter as Router, Route} from 'react-router-dom'
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import AboutMe from './AboutMe';
 import WorkExperience from './WorkExperience';
+import ProjectsPage from './ProjectsPage';
+
 
 
 
@@ -11,10 +13,11 @@ class App extends Component {
     return (
       <div>
         <Router>
-          <switch>
+          <Switch>
             <Route exact path="/" component={AboutMe} />
             <Route path="/work-history" component={WorkExperience} />
-          </switch>
+            <Route path="/projects-page" component={ProjectsPage}/> 
+          </Switch>
         </Router>
       </div>
     )

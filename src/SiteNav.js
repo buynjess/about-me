@@ -11,6 +11,7 @@ class SiteNav extends Component{
                      <ul>
                         <li><Link to="/"><h1>Home</h1></Link></li>
                         <li><Link to="/work-history"><h1>Work History</h1></Link></li>
+                        <li><Link to="/projects-page"><h1>My Projects</h1></Link></li>
                      </ul>
                     </nav>
                 </div>
